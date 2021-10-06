@@ -6,6 +6,6 @@ export const TIMEOUT_SEC = 5;
 export const LOG_ERROR_MESSAGE = false;
 export const LOG_ERROR = false;
 export const LOG_ERROR_ALL = false;
-export const LOG_STATE = false;
+export const LOG_STATE = true;
 export const RESULTS_PER_PAGE = 10;
 export const SUCCESS_TIMEOUT_MS = 1500;
