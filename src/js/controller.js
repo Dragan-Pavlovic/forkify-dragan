@@ -124,9 +124,6 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError('Error posting recipe, please try again!');
   }
 };
-const newFeature = function () {
-  console.log('welcome to the application');
-};
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
@@ -137,6 +134,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   searchView.addHandlerSearch(controlSearch);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeature();
 };
 init();
+
+console.log('Dragan');
